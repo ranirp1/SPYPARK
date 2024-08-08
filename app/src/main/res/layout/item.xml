@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="8dp"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/vechNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vechile number"
+            android:textSize="22sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:elevation="8dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:id="@+id/parkName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Park name"
+            android:textSize="17sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:elevation="8dp"
+            android:layout_marginTop="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Time:    "
+                android:textSize="17sp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/bookTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Time"
+                android:textSize="17sp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:elevation="8dp"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End Time:    "
+                android:textSize="17sp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/endTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End Time"
+                android:textSize="17sp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:elevation="8dp"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Money"
+            android:textSize="17sp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:elevation="8dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "716252702864",
+    "project_id": "spypark-cd542",
+    "storage_bucket": "spypark-cd542.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716252702864:android:5eeed07e8a9e079145d015",
+        "android_client_info": {
+          "package_name": "com.example.spypark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716252702864-urnlqjjmu94ki0455p972pvhbdteig9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYEbCNrGGRhDPG0Pu7aE_QSn1yhOnaBlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716252702864-urnlqjjmu94ki0455p972pvhbdteig9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
